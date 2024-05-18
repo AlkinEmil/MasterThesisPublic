@@ -23,7 +23,11 @@ $$h_y(x_1, \ldots , x_d ) = \sum_{i_1, \ldots, i_d = 1}^n A^y_{i_1, \ldots ,i_d}
 В файле ``tensors_strong_hyp_sketch.pdf`` изложено доказательство основного результата, сформулированного в виде теоремы:
 
 Suppose that $d = 2k$ is even. 
-Define the following set $$B := \left\lbrace \mathcal{X} \in \mathcal{M}^{eq}_{\mathbf{n}, \mathbf{r}} : \text{rank}_{CP} \mathcal{X} < q^{\frac{d}{2}} \right\rbrace,$$ where  $q = \text{min} \left\lbrace n, r-1 \right\rbrace$.
+Define the following set 
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+where  $q = \text{min} \left\lbrace n, r-1 \right\rbrace$.
 Then $\mu(B) = 0,$ where $\mu$ is the standard Lebesgue measure on $\mathcal{M}^{eq}_{\mathbf{n}, \mathbf{r}}$.
 
 ## Эксперименты
