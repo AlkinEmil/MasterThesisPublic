@@ -22,6 +22,8 @@ $$h_y(x_1, \ldots , x_d ) = \sum_{i_1, \ldots, i_d = 1}^n A^y_{i_1, \ldots ,i_d}
 
 В файле ``tensors_strong_hyp_sketch.pdf`` изложено доказательство основного результата, сформулированного в виде теоремы:
 
+
+### Theorem
 Suppose that $d = 2k$ is even. 
 Define the following set 
 ```math
