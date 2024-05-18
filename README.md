@@ -34,7 +34,7 @@ Then $\mu(B) = 0,$ where $\mu$ is the standard Lebesgue measure on $\mathcal{M}^
 
 ## Эксперименты
 
-Эксперименты на датасете MNIST можно посторить, запустив код из Jupyter notebook`ов в папке ``MNIST``.
+Эксперименты на датасете MNIST можно посторить, запустив код из Jupyter notebook`ов в папке ``exps_on_mnist``.
 
 Численное подтверждение полученной нижней оценки на CP-ранг случайного тензора, у которого Tensor-Train ранг не больше заданного числа находится в Jupyter notebook`е ``estimate_cp_rank_for_random_tensor.ipynb``.
 
