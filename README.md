@@ -11,7 +11,7 @@ $$h_y(x_1, \ldots , x_d ) = \sum_{i_1, \ldots, i_d = 1}^n A^y_{i_1, \ldots ,i_d}
 
 где $A^y_{i_1, \ldots ,i_d}$ - тензор обучаемых параметров, $f_{\theta_{i_j}}(x_i)$ - вектора признаков и $h_y(x_1, \ldots , x_d )$ - score функция для класса $y$.
 
-Целью работы является теоретический анализ скорости роста ''типичного'' CP-ранга тензора обучаемых параметров, соответствующего рекуррентной нейронной сети, у которой внутренные слои имеют одинаковые параметры, при увеличении количества осей $$d$$ тензора $$A$$.
+Целью работы является теоретический анализ скорости роста ''типичного'' CP-ранга тензора обучаемых параметров, соответствующего рекуррентной нейронной сети, у которой внутренные слои имеют одинаковые параметры, при увеличении количества осей $d$ тензора $A$.
 
 Целями экспериментов являются:
 
@@ -22,10 +22,10 @@ $$h_y(x_1, \ldots , x_d ) = \sum_{i_1, \ldots, i_d = 1}^n A^y_{i_1, \ldots ,i_d}
 
 В файле ``tensors_strong_hyp_sketch.pdf`` изложено доказательство основного результата, сформулированного в виде теоремы:
 
-> Suppose that $$d = 2k$$ is even. 
+> Suppose that $d = 2k$ is even. 
 Define the following set $$B := \left\{ \mathcal{X} \in \mathcal{M}^{eq}_{\mathbf{n}, \mathbf{r}} : \text{rank}_{CP} \mathcal{X} < q^{\frac{d}{2}} \right\},$$ 
-where  $$q = \text{min} \left\{ n, r-1 \right\}$$.
-Then $$\mu(B) = 0,$$ where $$\mu$$ is the standard Lebesgue measure on $$\mathcal{M}^{eq}_{\mathbf{n}, \mathbf{r}}$$.
+where  $q = \text{min} \left\{ n, r-1 \right\}$.
+Then $\mu(B) = 0,$ where $\mu$ is the standard Lebesgue measure on $\mathcal{M}^{eq}_{\mathbf{n}, \mathbf{r}}$.
 
 ## Эксперименты
 
