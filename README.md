@@ -1,4 +1,4 @@
-# Выразительная сила рекуррентных нейронных сетей / Expressive Power of Recurrent Neural Networks, II
+# Выразительная сила Tensor-Train сетей с равными TT-ядрами / Expressive Power of Tensor-Train Networks With Equal TT-cores
 
 **Автор:** Алкин Эмиль Венерович.
 
